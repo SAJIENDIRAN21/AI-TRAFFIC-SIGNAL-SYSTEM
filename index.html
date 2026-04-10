@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+
+<body>
+
+<h1>AI Smart Traffic Management</h1>
+
+<img src="/video" width="800">
+
+<h2>Vehicles</h2>
+<p id="vehicles">0</p>
+
+<h2>Traffic Level</h2>
+<p id="traffic">LOW</p>
+
+<h2>Green Signal Time</h2>
+<p id="green_time">15</p>
+
+<button onclick="activateAmbulance()">🚑 Ambulance Mode</button>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
